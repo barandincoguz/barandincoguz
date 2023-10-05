@@ -1,4 +1,4 @@
-# WELCOME TO MY PROFİLE
+# ☄️ Hey! I'm Baran.
 ##
 - 🌱 I’m currently learning **_Java/Spring_**
 - Undergraduate 2nd year Software Engineer student in TED University
