@@ -1,6 +1,6 @@
 # ☄️ Hey! I'm Baran.
 
-##- 👾 I’m currently working and learning with **Java/Spring**
+- 👾 I’m currently working and learning with **Java/Spring**
 - Undergraduate 2nd year Software Engineer student in TED University
 - 💬 Ask me about  **_Anything you want :)_**
 - 📫 How to reach me: **barandincoguz@gmail.com**
