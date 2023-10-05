@@ -6,7 +6,8 @@
 - 💬 Ask me about  **_Anything you want :)_**
 - 📫 How to reach me: **barandincoguz@gmail.com**
 - My Instagram : [***barandncgz***](https://www.instagram.com/barandncgz)
-<img src="C:\Users\User\Downloads\java" alt="alt yazı" width="320">
+- ![java (1)](https://github.com/barandincoguz/barandincoguz/assets/113445399/a2e8aee8-3193-44be-8467-f90c54425487)
+
 
 
 
