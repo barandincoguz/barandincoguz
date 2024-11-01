@@ -2,9 +2,10 @@
 <h2 align="center">Welcome To My Profile :)</h1>
 <h3 align="center">I'm a Junior Developer From Turkey </h3>
 
-- 🌱 I’m currently learning **Spring/Java**
+-🌱 I’m currently coding the backend with **Spring/Java** and the frontend with **React/Angular**.
+- 📚 Learning **Python ,C++**
 
-- 💬 Ask me about **Spring, Java ,Object Oriented Programming**
+- 💬 Ask me about **Spring, Java ,Object Oriented Programming ,Software Architectures ,React**
 
 - 📫 How to reach me **barandincoguz@gmail.com**
 
