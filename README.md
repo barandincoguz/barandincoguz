@@ -1,12 +1,15 @@
 <h1 align="center">Hi 👋, I'm Baran</h1>
 <h2 align="center">Welcome To My Profile :)</h1>
 <h3 align="center">I'm a Junior Developer From Turkey </h3>
+
 - 📚 Learning **Python ,C++**.
 - 🌱 I’m currently coding the backend with **Spring/Java** and the frontend with **React/Angular**.
 - 💬 Ask me about **Spring, Java ,Object Oriented Programming ,Software Architectures ,React**.
 - 📫 How to reach me **barandincoguz@gmail.com**.
 - 🌐 **[Visit my portfolio : barandincoguz.me](https://barandincoguz.me)**
+
 <h3 align="left">Connect with me :</h3>
+
 <p align="left">
 <a href="https://barandincoguz.me" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="barandincoguz.me" height="30" width="40" /></a>
   <a href="https://www.linkedin.com/in/barandncgz/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/barandncgz/" height="30" width="40" /></a>
