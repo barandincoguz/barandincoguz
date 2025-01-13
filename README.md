@@ -6,6 +6,7 @@
 - 🌱 I’m currently coding the backend with **Spring/Java** and the frontend with **React/Angular**.
 - 💬 Ask me about **Spring, Java ,Object Oriented Programming ,Software Architectures ,React**.
 - 📫 How to reach me **barandincoguz@gmail.com**.
+- 🌐 [Visit my portfolio : ](https://barandincoguz.me)
 
 <h3 align="left">Connect with me :</h3>
 <p align="left">
