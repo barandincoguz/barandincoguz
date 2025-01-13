@@ -10,12 +10,8 @@
 
 <h3 align="left">Connect with me :</h3>
 <p align="left">
-<a href="https://barandincoguz.me" target="blank">
-  <svg xmlns="http://www.w3.org/2000/svg" height="30" width="40" viewBox="0 0 24 24">
-    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22c-5.524 0-10-4.476-10-10s4.476-10 10-10 10 4.476 10 10-4.476 10-10 10zm0-16c-3.313 0-6 2.687-6 6 0 1.104.896 2 2 2s2-.896 2-2c0-1.104.896-2 2-2s2 .896 2 2c0 1.104.896 2 2 2s2-.896 2-2c0-3.313-2.687-6-6-6z"/>
-  </svg>
-</a>
 <a href="https://barandincoguz.me" target="blank"><img align="center" src="" alt="barandincoguz.me" height="30" width="40" /></a>
+  <a href="https://www.linkedin.com/in/barandncgz/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linkedin.svg" alt="https://www.linkedin.com/in/barandncgz/" height="30" width="40" /></a>
 <a href="https://instagram.com/barandncgz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/barandncgz/" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/brn_dncgz/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/brn_dncgz/" height="30" width="40" /></a>
 </p>
