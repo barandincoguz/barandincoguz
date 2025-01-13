@@ -7,11 +7,10 @@
 - 💬 Ask me about **Spring, Java ,Object Oriented Programming ,Software Architectures ,React**.
 - 📫 How to reach me **barandincoguz@gmail.com**.
 - 🌐 **[Visit my portfolio : barandincoguz.me](https://barandincoguz.me)**
-[![Website](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Internet_Explorer_10_icon.svg/512px-Internet_Explorer_10_icon.svg.png)](https://barandincoguz.me)
 <h3 align="left">Connect with me :</h3>
 <p align="left">
   
-<a href="https://barandincoguz.me" target="blank"><img align="center" src="" alt="barandincoguz.me" height="30" width="40" /></a>
+<a href="https://barandincoguz.me" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="barandincoguz.me" height="30" width="40" /></a>
   <a href="https://www.linkedin.com/in/barandncgz/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/barandncgz/" height="30" width="40" /></a>
 <a href="https://instagram.com/barandncgz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/barandncgz/" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/brn_dncgz/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/brn_dncgz/" height="30" width="40" /></a>
