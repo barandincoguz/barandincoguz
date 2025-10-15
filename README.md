@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Baran 👋</h1>
-<h3 align="center">Senior Software Engineer in the Making | Full-Stack Developer | LLM & Data Enthusiast</h3>
+<h3 align="center">Senior Software Engineering Student in the Making | Full-Stack Developer | LLM & Data Enthusiast</h3>
 
 <p align="center">
   <a href="https://barandincoguz.me" target="_blank">
