@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Baran 👋</h1>
-<h3 align="center">AI & Software Engineer · Agentic RAG · LLM Evaluation · Multi-Agent Systems · Full-Stack</h3>
+<h3 align="center">AI & Software Engineer · Enterprise AI Systems · RAG · LLM Evaluation & Benchmarking · Multi-Agent Systems · Full-Stack Developer</h3>
 
 <p align="center">
   <a href="mailto:barandincoguz@gmail.com">
