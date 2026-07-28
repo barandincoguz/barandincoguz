@@ -1,118 +1,128 @@
 <h1 align="center">Hi, I'm Baran 👋</h1>
-<h3 align="center">AI & Software Engineer · Enterprise AI Systems · RAG · LLM Evaluation & Benchmarking · Multi-Agent Systems · Full-Stack Developer</h3>
+
+<h3 align="center">
+AI & Software Engineer building reliable intelligent systems — from research and evaluation to production software.
+</h3>
+
+<p align="center">
+  <strong>LLM Systems</strong> ·
+  <strong>Retrieval & RAG</strong> ·
+  <strong>Enterprise AI Systems & AI Evaluation</strong> ·
+  <strong>Backend Engineering</strong> ·
+  <strong>Full-Stack Products</strong>
+</p>
 
 <p align="center">
   <a href="mailto:barandincoguz@gmail.com">
-    <img src="https://img.shields.io/badge/Email-barandincoguz@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://www.linkedin.com/in/barandncgz/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-barandncgz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://www.linkedin.com/in/barandncgz/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  <a href="https://leetcode.com/brn_dncgz/">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+</p>
+
+---
+
+## About Me
+
+I'm an **AI & Software Engineer** with a research-driven approach to building software that works beyond the prototype stage.
+
+I graduated **1st out of 44** from TED University's Software Engineering program and currently contribute to a national **TÜBİTAK 1007 R&D project**, developing source-grounded AI systems over a corpus of **120,000+ legally sensitive documents**.
+
+My work spans the full lifecycle of an intelligent product: data and retrieval pipelines, model orchestration, structured outputs, evaluation, backend services, user-facing applications, and deployment. I am especially interested in systems that can **justify their outputs, detect weak evidence, and abstain instead of guessing**.
+
+Alongside AI research, I build production software with **Python, TypeScript, Java, React, FastAPI, Spring Boot, PostgreSQL, Docker, and Kubernetes**.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Software_Engineering-1st_of_44-2F80ED?style=flat-square" alt="1st of 44" />
+  <img src="https://img.shields.io/badge/Legal_Corpus-120K%2B_Documents-6E4AFF?style=flat-square" alt="120K+ documents" />
+  <img src="https://img.shields.io/badge/Fabrication-0.68_%E2%86%92_0.14-16A34A?style=flat-square" alt="Fabrication reduction" />
+  <img src="https://img.shields.io/badge/IEEE_Papers-1_Published_%2B_3_Accepted-F59E0B?style=flat-square" alt="IEEE papers" />
 </p>
 
 ---
 
-### 🧠 Who Am I?
+## Selected Work
 
-I'm an **AI & Software Engineer** working where **frontier AI meets production engineering** — building LLM systems that are reliable enough to ship, not just demo.
+### Trustworthy AI for Turkish Tax Rulings — *TÜBİTAK 1007 R&D*
 
-Software Engineering **valedictorian** (1st of 44 @ TEDU) and a researcher on a national **TÜBİTAK R&D project**, where I design **agentic RAG** pipelines, **multi-agent orchestration**, and **LLM evaluation** frameworks for source-grounded question answering over a 120,000+ document corpus. My work cut unsupported-answer fabrication from **0.68 → 0.14** at 9B scale — statistically significant.
+I work on a research-to-production AI stack for retrieving, structuring, and answering questions over Turkish tax rulings.
 
-I'm just as comfortable across the stack: backend services in **FastAPI / Spring Boot / Laravel**, user-facing features in **TypeScript / React / Next.js**, and delivery with **Docker, Kubernetes, and CI/CD**. I care about clean abstractions, tested code, and systems that hold up under real traffic.
+- **Agentic RAG:** Designed a deterministic, graph-structured orchestrator with query planning, parallel researchers, reciprocal-rank fusion, evidence criticism, reranking, grounded answer generation, faithfulness validation, and answer-or-abstain control.
+- **Measured reliability:** In a controlled 9B-scale comparison, reduced unsupported-answer fabrication from **0.68 to 0.14** while keeping answerable-question accuracy at least as high as vanilla RAG.
+- **Structured legal NLP:** Built extraction and normalization pipelines for statute references using a five-field schema: law number, law name, article, paragraph, and subparagraph.
+- **Benchmark engineering:** Evaluated **8 rule-based, NER-style, and LLM-based methods** on a leakage-controlled benchmark of **494 rulings** under one evaluator; the strongest system reached **0.8843 F1** on exact five-field extraction.
+- **Question extraction:** Built a **400-document manually annotated benchmark** and compared **8 open-weight LLMs** under zero-shot and dynamically selected few-shot prompting. The best valid-output system reached an **86.1 composite score**, while the study exposed an important quality-versus-JSON-reliability trade-off.
 
-📄 **1× published + 3× accepted** IEEE papers on RAG, LLM evaluation, and legal-NLP.
+The goal is not simply to generate fluent answers. It is to build an auditable system with explicit evidence, reproducible evaluation, structured outputs, and safe failure behavior.
 
----
+### 🧩 DDD-Enforcer — *AI-Powered Developer Tooling*
 
-### 🚀 What I'm Building
+A developer tool that combines deterministic program analysis with LLM reasoning to detect Domain-Driven Design violations during development.
 
-**🔎 Agentic RAG for Turkish Tax Rulings** — *TÜBİTAK 1007 R&D*
-Deterministic, graph-structured multi-agent orchestrator (query planner → parallel researchers → evidence critic → reranker → validator) with faithfulness checking and abstention. Reduced fabrication **0.68 → 0.14** (McNemar *p* < 10⁻⁶) with no loss of accuracy.
+- **TypeScript VS Code extension** for in-editor feedback
+- **FastAPI backend** for analysis and orchestration
+- Python **AST-based static analysis** for deterministic checks
+- LLM-assisted reasoning for architectural and semantic violations
+- Structured diagnostics designed for explainability and actionable fixes
 
-**🧩 [DDD-Enforcer](https://github.com/barandincoguz)** — *AI-powered developer tooling · IEEE Xplore*
-A TypeScript **VS Code extension** + FastAPI backend combining static Python-AST analysis with LLM reasoning to flag Domain-Driven Design violations in real time.
+### 🎬 CineEmbed — *Full-Stack Multimodal Retrieval*
 
-**🎬 CineEmbed** — *Full-stack multimodal retrieval*
-Next.js / React frontend + FastAPI backend serving retrieval over **329,044 films**. Compressed 564-dim features into 32-dim embeddings (42 MB index) → **5.1 ms** top-10 retrieval.
+A full-stack retrieval system for exploring a collection of **329,044 films**.
 
----
-
-### 🛠️ Tech Stack
-
-#### 💻 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white&style=flat)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white&style=flat)
-![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white&style=flat)
-![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=flat)
-
-#### 🤖 AI / LLM Engineering
-![Agentic RAG](https://img.shields.io/badge/Agentic_RAG-6E4AFF?style=flat)
-![LLM Evaluation](https://img.shields.io/badge/LLM_Evaluation-6E4AFF?style=flat)
-![Multi--Agent](https://img.shields.io/badge/Multi--Agent_Systems-6E4AFF?style=flat)
-![Retrieval](https://img.shields.io/badge/Retrieval_%26_Reranking-6E4AFF?style=flat)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white&style=flat)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD166?logo=huggingface&logoColor=black&style=flat)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=flat)
-![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=flat)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=flat)
-
-#### 🏗️ Backend
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring&logoColor=white&style=flat)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=flat)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white&style=flat)
-![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=flat)
-![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white&style=flat)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white&style=flat)
-
-#### 🌐 Frontend
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=flat)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white&style=flat)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat)
-
-#### 🗃️ Data & Storage
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=flat)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=flat)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat)
-![Vector DBs](https://img.shields.io/badge/Vector_Databases-4B8BBE?style=flat)
-
-#### 🚀 DevOps & Infrastructure
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white&style=flat)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=white&style=flat)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?logo=apachekafka&logoColor=white&style=flat)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=flat)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat)
+- **Next.js / React** frontend and **FastAPI** backend
+- Compressed **564-dimensional features into 32-dimensional embeddings**
+- Reduced the search index to approximately **42 MB**
+- Achieved approximately **5.1 ms** top-10 retrieval latency
 
 ---
 
-### 🔧 Philosophy
+## Research & Publications
 
-- **Ship reliability, not demos** — an LLM feature isn't done until it's evaluated, grounded, and knows when to say "I don't know."
-- **Code is a craft** — readable, testable, evolvable.
-- **Infrastructure is code too** — if it isn't automated, it's technical debt.
+I have contributed to **four IEEE papers** across trustworthy AI, legal NLP, LLM evaluation, information extraction, and AI-assisted software engineering.
+
+1. **Reducing Hallucination in Turkish Tax-Ruling Question Answering: Agentic versus Vanilla RAG at Two Model Scales**
+2. **A Comparative Benchmark for Structured Legal Reference Extraction from Turkish Tax Rulings**
+3. **Zero-Shot vs. Few-Shot Question Extraction from Turkish Tax Rulings: A Comparison of Open-Weight LLM Families**
+4. **AI-Assisted Domain-Driven Design Enforcement through Static Analysis and LLM Reasoning**
+
+My research style is benchmark-centered: define the task carefully, isolate variables, measure failure modes, test statistical significance, and treat output reliability as a separate engineering concern rather than an afterthought.
 
 ---
 
-### 📫 Let's Connect
+## Tech Stack
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/barandncgz/" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
-  </a>
-  <a href="https://leetcode.com/brn_dncgz/" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40" />
-  </a>
-  <a href="https://instagram.com/barandncgz" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" />
-  </a>
+| Area | Technologies |
+|---|---|
+| **Languages** | Python, TypeScript, JavaScript, Java, C++, SQL, PHP |
+| **AI & ML** | PyTorch, TensorFlow, Hugging Face, scikit-learn, LangChain, embeddings, reranking, structured extraction, LLM evaluation |
+| **Backend** | FastAPI, Spring Boot, Node.js, NestJS, Express, Django, Laravel |
+| **Frontend** | React, Next.js, TypeScript |
+| **Data** | PostgreSQL, MySQL, MongoDB, Redis, vector databases |
+| **Infrastructure** | Docker, Kubernetes, Kafka, GitHub Actions, Jenkins, Linux, Git |
+
+---
+
+## How I Build
+
+- **Start with the failure modes.** A system is easier to improve when its errors are measurable and categorized.
+- **Use models where they add value.** Keep control flow, validation, schemas, and safety checks deterministic whenever possible.
+- **Build end to end.** Research code should be reproducible; production code should be observable, testable, and maintainable.
+- **Prefer evidence over confidence.** In high-stakes systems, a correct abstention is better than a convincing fabrication.
+
+---
+
+## Let's Connect
+
+I'm open to **new-grad and early-career opportunities**, as well as collaborations around AI systems, backend engineering, applied research, and full-stack products.
+
+<p align="center">
+  <a href="mailto:barandincoguz@gmail.com"><strong>Email</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/barandncgz/"><strong>LinkedIn</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://leetcode.com/brn_dncgz/"><strong>LeetCode</strong></a>
 </p>
-
-> 💬 Open to **new-grad / early-career roles** and **collaborations** — especially around **LLM systems, agentic RAG, evaluation, and full-stack AI products**.
