@@ -93,15 +93,6 @@ Next.js / React frontend + FastAPI backend serving retrieval over **329,044 film
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=barandincoguz&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=barandincoguz&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</p>
-
----
-
 ### 🔧 Philosophy
 
 - **Ship reliability, not demos** — an LLM feature isn't done until it's evaluated, grounded, and knows when to say "I don't know."
