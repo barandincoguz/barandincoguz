@@ -7,7 +7,7 @@ AI & Software Engineer building reliable intelligent systems — from research a
 <p align="center">
   <strong>LLM Systems</strong> ·
   <strong>Retrieval & RAG</strong> ·
-  <strong>Enterprise AI Systems & AI Evaluation</strong> ·
+  <strong>LLMOps & AI Evaluation</strong> ·
   <strong>Backend Engineering</strong> ·
   <strong>Full-Stack Products</strong>
 </p>
@@ -78,16 +78,40 @@ A full-stack retrieval system for exploring a collection of **329,044 films**.
 - Reduced the search index to approximately **42 MB**
 - Achieved approximately **5.1 ms** top-10 retrieval latency
 
+### 📚 Belge Gözü — *Citation-Grounded Legal RAG*
+
+[Open source](https://github.com/barandincoguz/belge-gozu) retrieval over **4,222 pages** of Turkish legislation, combining BM25 with ColPali-class visual retrieval.
+
+- Page-bound citations and selective answering (**Recall@20 0.930** on 43 questions)
+- int8 embeddings made visual search **4.3× faster** than the 1-bit baseline
+- Prometheus/Grafana observability (p95 latency, token and cost metrics) and **850+ tests** in CI
+
+### 🗂️ Legal Annotation Platform — *Human-in-the-Loop Data Infrastructure*
+
+[Open source](https://github.com/barandincoguz/AnnotationPlatform) multi-user platform for annotating Turkish tax rulings.
+
+- **60+ typed REST endpoints**, renewable document leases and `BEGIN IMMEDIATE` transactions
+- Transactional outbox (69 triggers) mirroring SQLite WAL to PostgreSQL
+- bcrypt, CSRF protection and rate limiting; **1,900+ automated tests** (pytest, Vitest, Playwright E2E with axe-core)
+
+### 🛡️ dqcheck — *Crash-Resilient Data Quality Platform*
+
+[Open source](https://github.com/barandincoguz/data-quality-checker) quality control and weak supervision for legal reference annotations.
+
+- Local MLX inference with Qwen3.5-9B and semantic GREEN / RED / QUARANTINE routing of model-versus-human annotations
+- ACID SQLite storage with verified backups and checksum-sealed dataset releases
+- **934 tests**
+
 ---
 
 ## Research & Publications
 
 I have contributed to **four IEEE papers** across trustworthy AI, legal NLP, LLM evaluation, information extraction, and AI-assisted software engineering.
 
-1. **Reducing Hallucination in Turkish Tax-Ruling Question Answering: Agentic versus Vanilla RAG at Two Model Scales**
-2. **A Comparative Benchmark for Structured Legal Reference Extraction from Turkish Tax Rulings**
-3. **Zero-Shot vs. Few-Shot Question Extraction from Turkish Tax Rulings: A Comparison of Open-Weight LLM Families**
-4. **AI-Assisted Domain-Driven Design Enforcement through Static Analysis and LLM Reasoning**
+1. **Reducing Hallucination in Turkish Tax-Ruling Question Answering: Agentic versus Vanilla RAG at Two Model Scales** — IEEE ASYU 2026 (accepted)
+2. **A Comparative Benchmark for Structured Legal Reference Extraction from Turkish Tax Rulings** — IEEE ASYU 2026 (accepted), first author
+3. **Zero-Shot vs. Few-Shot Question Extraction from Turkish Tax Rulings: A Comparison of Open-Weight LLM Families** — IEEE ASYU 2026 (accepted)
+4. [**DDD-Enforcer: An AI-Powered Multi-Agent System for Real-Time Domain-Driven Design Enforcement**](https://ieeexplore.ieee.org/document/11418529) — IISEC 2026, IEEE Xplore, first author ([doi:10.1109/IISEC69317.2026.11418529](https://doi.org/10.1109/IISEC69317.2026.11418529))
 
 My research style is benchmark-centered: define the task carefully, isolate variables, measure failure modes, test statistical significance, and treat output reliability as a separate engineering concern rather than an afterthought.
 
@@ -98,7 +122,8 @@ My research style is benchmark-centered: define the task carefully, isolate vari
 | Area | Technologies |
 |---|---|
 | **Languages** | Python, TypeScript, JavaScript, Java, C++, SQL, PHP |
-| **AI & ML** | PyTorch, TensorFlow, Hugging Face, scikit-learn, LangChain, embeddings, reranking, structured extraction, LLM evaluation |
+| **AI & ML** | PyTorch, TensorFlow, Hugging Face, scikit-learn, LangChain, LangGraph, LoRA/QLoRA/PEFT, Apple MLX, Ollama, embeddings, reranking, structured extraction |
+| **LLMOps & Evaluation** | AI evals, LLM-as-a-judge, guardrails (abstention, faithfulness validation), observability (Prometheus, Grafana), trace-ID audit logs, Weights & Biases, versioned datasets |
 | **Backend** | FastAPI, Spring Boot, Node.js, NestJS, Express, Django, Laravel |
 | **Frontend** | React, Next.js, TypeScript |
 | **Data** | PostgreSQL, MySQL, MongoDB, Redis, vector databases |
